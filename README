@@ -1,0 +1,27 @@
+# QUESTION:
+# if every family wants to have boys
+# they will have children until they have a boy
+# what percent of population will be boys?
+
+control.py: 
+	just does a 50/50 guess and allows each family to only have 1 baby.
+	this is used to check the standard deviation of your random device
+
+
+simple_baby.py:
+	runs through X number of families
+	each family is allowed Y attempts to have a child before they hit the max number of children allowed
+	shows a histogram of families by size
+	percent population of boys vs. girls
+
+
+mom_multi_gen.py:
+	same as simple_baby.py, but breeds for multiple generations to see if there is a 
+	generational drift
+
+
+correct_gens.py:
+	sample as mom_multi_gen.py, but the family doesn't care of they have boys or girls.
+	they have as many kids as max allows
+	this shows population growth, where as mom_multi shows population collapse
+	
